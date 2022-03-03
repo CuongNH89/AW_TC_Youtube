@@ -1,0 +1,16 @@
+{
+  "name": "aw_tc_youtube",
+  "version": "1.0.0",
+  "description": "API, web testing with TestCafe for Youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome test/"
+  },
+  "author": "CuongNH",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.18.4",
+    "testcafe-reporter-allure-custom": "^1.1.3"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "protocol": "inspector",
+            "request": "launch",
+            "name": "Launch test files on Chrome with TestCafe",
+            "program": "${workspaceRoot}/node_modules/testcafe/bin/testcafe.js",
+            "args": [
+                "chrome",
+                "${relativeFile}"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "node",
+            "protocol": "inspector",
+            "request": "launch",
+            "name": "Launch test files on Firefox with TestCafe",
+            "program": "${workspaceRoot}/node_modules/testcafe/bin/testcafe.js",
+            "args": [
+                "firefox",
+                "${relativeFile}"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
