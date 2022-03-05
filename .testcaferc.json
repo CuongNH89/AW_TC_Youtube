@@ -1,0 +1,19 @@
+{
+    "reporter": [
+        {
+            "name": "allure"
+        },
+        {
+            "name": "cucumber-json"
+        },
+        {
+            "name": "xunit",
+            "output": "report/xunit.xml"
+        }
+    ],
+    "screenshots": {
+        "path": "report/screenshot/",
+        "takeOnFails": true,
+        "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+    }
+}

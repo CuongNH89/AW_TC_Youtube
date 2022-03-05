@@ -6,7 +6,7 @@ fixture `YouTube`
 test('YT-1', async t => {
     await t.maximizeWindow();
     console.log("Check YouTube Home elements");
-    await Home.checkYouTubeHomeElements;
+    await t.expect(Home.checkYouTubeHomeElements).ok();
 });
 
 // test('YT-', async t => {

@@ -24,7 +24,7 @@ class Home {
             .expect(icnGuideIcon.visible).eql(true)
             .expect(icnLogoIcon.visible).eql(true)
             .expect(tbxSearch.visible).eql(true)
-            .expect(tbxSearch.innerText).eql('')
+            .expect(tbxSearch.innerText).eql('aldkflaksdjlk#$$$$$')
             .expect(icnSearchIcon.visible).eql(true)
             .expect(btnVoiceSearch.visible).eql(true)
             .expect(btnYouTubeApps.visible).eql(true)
